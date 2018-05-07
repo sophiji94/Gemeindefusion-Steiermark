@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <title>Gemeindefusion Steiermark</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+    <h1>Gemeindefusion Steiermark</h1>
+    </header>
+    <h2>Visualisierung</h2>
+    <h3> Gemeindegrößen vor und nach der Fusion</h3>
+    <svg id="svg1" version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg"
+    preserveAspectRatio="xMidYMid meet" viewBox="0 0 470 400">
+      <title>Gemeinden nach Einwohnern vor der Fusion - ohne Graz </title>
+      <desc> Hier sind die steirischen Gemeinden vor der Fusion nach Größenklassen in einem Balkendiagramm geordnet
+         - ohne Graz. </desc>
+      <!--Unterste Linie -->
+      <line x1="20" y1="340" x2="470" y2="340"
+      style="stroke:black; stroke-width:2px;" />
+      <!-- Raster waagrecht von oben nach unten -->
+      <line x1="20" y1="40" x2="470" y2="40"
+      style="stroke:black; stroke-width:0.5px;" />
+      <line x1="20" y1="90" x2="470" y2="90"
+      style="stroke:black; stroke-width:0.5px;" />
+      <line x1="20" y1="140" x2="470" y2="140"
+      style="stroke:black; stroke-width:0.5px;" />
+      <line x1="20" y1="190" x2="470" y2="190"
+      style="stroke:black; stroke-width:0.5px;" />
+      <line x1="20" y1="240" x2="470" y2="240"
+      style="stroke:black; stroke-width:0.5px;" />
+      <line x1="20" y1="290" x2="470" y2="290"
+      style="stroke:black; stroke-width:0.5px;" />
+      <!-- Linie - y-Achse - senkrecht -->
+      <line x1="20" y1="40" x2="20" y2="340"
+      style="stroke:black; stroke-width:2px;" />
+      <!-- Balken von links nach rechts -->
+      <rect x="50" y="262" width="30" height="77" fill="#DF0101"/>
+      <rect x="110" y="216" width="30" height="123" fill="#DF0101"/>
+      <rect x="170" y="84" width="30" height="255" fill="#DF0101"/>
+      <rect x="230" y="283" width="30" height="56" fill="#DF0101"/>
+      <rect x="290" y="313" width="30" height="26" fill="#DF0101"/>
+      <rect x="350" y="337" width="30" height="2" fill="#DF0101"/>
+      <rect x="410" y="337" width="30" height="2" fill="#DF0101"/>
+      <!-- Beschriftung Titel -->
+      <text x="38" y="25" font-family="Georgia" font-size="16">
+        Gemeinden nach Einwohnern vor der Fusion (ohne Graz)
+      </text>
+      <!-- Beschriftung der y-Achse von oben nach unten -->
+      <text x="0" y="43" font-family="Georgia" font-size="10">
+        300
+      </text>
+      <text x="0" y="93" font-family="Georgia" font-size="10">
+        250
+      </text>
+      <text x="0" y="143" font-family="Georgia" font-size="10">
+        200
+      </text>
+      <text x="0" y="193" font-family="Georgia" font-size="10">
+        150
+      </text>
+      <text x="0" y="243" font-family="Georgia" font-size="10">
+        100
+      </text>
+      <text x="6" y="293" font-family="Georgia" font-size="10">
+        50
+      </text>
+      <!-- Beschriftung der x-Achse von links nach rechts -->
+      <text x="53" y="350" font-family="Georgia" font-size="7" >
+        bis 500
+      </text>
+      <text x="107" y="350" font-family="Georgia" font-size="7" >
+        501 - 1.000
+      </text>
+      <text x="165" y="350" font-family="Georgia" font-size="7" >
+        1.001 - 2.500
+      </text>
+      <text x="225" y="350" font-family="Georgia" font-size="7" >
+        2.501 - 5.000
+      </text>
+      <text x="283" y="350" font-family="Georgia" font-size="7" >
+        5.001 - 10.000
+      </text>
+      <text x="339" y="350" font-family="Georgia" font-size="7" >
+        10.001 - 20.000
+      </text>
+      <text x="399" y="350" font-family="Georgia" font-size="7" >
+        20.001 - 30.000
+      </text>
+      <!-- Beschriftung der Balken von links nach rechts - Anzahl der Gemeinden - -->
+      <text x="60" y="260" font-family="Georgia" font-size="10">
+        77
+      </text>
+      <text x="116" y="214" font-family="Georgia" font-size="10">
+        123
+      </text>
+      <text x="176" y="82" font-family="Georgia" font-size="10">
+        225
+      </text>
+      <text x="240" y="281" font-family="Georgia" font-size="10">
+        56
+      </text>
+      <text x="300" y="311" font-family="Georgia" font-size="10">
+        26
+      </text>
+      <text x="361" y="335" font-family="Georgia" font-size="10">
+        2
+      </text>
+      <text x="421" y="335" font-family="Georgia" font-size="10">
+        2
+      </text>
+    </svg>
+
+    <svg id="svg2" version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg"
+    preserveAspectRatio="xMidYMid meet" viewBox="0 0 470 400">
+      <title>Gemeinden nach Einwohnern nach der Fusion - ohne Graz </title>
+      <desc> Hier sind die steirischen Gemeinden nach der Fusion nach Größenklassen
+        in einem Balkendiagramm geordnet - ohne Graz. </desc>
+        <!--Unterste Linie -->
+        <line x1="20" y1="340" x2="470" y2="340"
+        style="stroke:black; stroke-width:2px;" />
+        <!-- Raster waagrecht von oben nach unten -->
+        <line x1="20" y1="40" x2="470" y2="40"
+        style="stroke:black; stroke-width:0.5px;" />
+        <line x1="20" y1="90" x2="470" y2="90"
+        style="stroke:black; stroke-width:0.5px;" />
+        <line x1="20" y1="140" x2="470" y2="140"
+        style="stroke:black; stroke-width:0.5px;" />
+        <line x1="20" y1="190" x2="470" y2="190"
+        style="stroke:black; stroke-width:0.5px;" />
+        <line x1="20" y1="240" x2="470" y2="240"
+        style="stroke:black; stroke-width:0.5px;" />
+        <line x1="20" y1="290" x2="470" y2="290"
+        style="stroke:black; stroke-width:0.5px;" />
+        <!-- Linie - y-Achse - senkrecht -->
+        <line x1="20" y1="40" x2="20" y2="340"
+        style="stroke:black; stroke-width:2px;" />
+        <!-- Balken von links nach rechts -->
+        <rect id="balken1" x="50" y="262" width="30" height="77" fill="#088A08"/>
+        <rect id="balken2" x="110" y="216" width="30" height="123" fill="#088A08"/>
+        <rect id="balken3" x="170" y="84" width="30" height="255" fill="#088A08"/>
+        <rect id="balken4" x="230" y="283" width="30" height="56" fill="#088A08"/>
+        <rect id="balken5" x="290" y="313" width="30" height="26" fill="#088A08"/>
+        <rect id="balken6" x="350" y="337" width="30" height="2" fill="#088A08"/>
+        <rect id="balken7" x="410" y="337" width="30" height="2" fill="#088A08"/>
+        <!-- Beschriftung Titel -->
+        <text x="38" y="25" font-family="Georgia" font-size="16">
+          Gemeinden nach Einwohnern nach der Fusion (ohne Graz)
+        </text>
+        <!-- Beschriftung der y-Achse von oben nach unten -->
+        <text x="0" y="43" font-family="Georgia" font-size="10">
+          300
+        </text>
+        <text x="0" y="93" font-family="Georgia" font-size="10">
+          250
+        </text>
+        <text x="0" y="143" font-family="Georgia" font-size="10">
+          200
+        </text>
+        <text x="0" y="193" font-family="Georgia" font-size="10">
+          150
+        </text>
+        <text x="0" y="243" font-family="Georgia" font-size="10">
+          100
+        </text>
+        <text x="6" y="293" font-family="Georgia" font-size="10">
+          50
+        </text>
+        <!-- Beschriftung der x-Achse von links nach rechts -->
+        <text x="53" y="350" font-family="Georgia" font-size="7" >
+          bis 500
+        </text>
+        <text x="107" y="350" font-family="Georgia" font-size="7" >
+          501 - 1.000
+        </text>
+        <text x="165" y="350" font-family="Georgia" font-size="7" >
+          1.001 - 2.500
+        </text>
+        <text x="225" y="350" font-family="Georgia" font-size="7" >
+          2.501 - 5.000
+        </text>
+        <text x="283" y="350" font-family="Georgia" font-size="7" >
+          5.001 - 10.000
+        </text>
+        <text x="339" y="350" font-family="Georgia" font-size="7" >
+          10.001 - 20.000
+        </text>
+        <text x="399" y="350" font-family="Georgia" font-size="7" >
+          20.001 - 30.000
+        </text>
+        <!-- Beschriftung der Balken von links nach rechts - Anzahl der Gemeinden - -->
+        <text id="text1" x="60" y="260" font-family="Georgia" font-size="10">
+          77
+        </text>
+        <text id="text2" x="116" y="214" font-family="Georgia" font-size="10">
+          123
+        </text>
+        <text id="text3" x="176" y="82" font-family="Georgia" font-size="10">
+          225
+        </text>
+        <text id="text4" x="240" y="281" font-family="Georgia" font-size="10">
+          56
+        </text>
+        <text id= "text5" x="300" y="311" font-family="Georgia" font-size="10">
+          26
+        </text>
+        <text id="text6" x="361" y="335" font-family="Georgia" font-size="10">
+          2
+        </text>
+        <text id="text7" x="421" y="335" font-family="Georgia" font-size="10">
+          2
+        </text>
+      </svg>
+    <button id="clickme1">Vorher</button>
+    <button id="clickme2">Nachher</button>
+    <h2>Gemeinden nach Einwohnern mit Graz</h2>
+    <table>
+      <tr>
+      <th>Gemeinden nach Einwohner</th>
+      <th>vor der Fusion</th>
+      <th>nach der Fusion</th>
+    </tr>
+    <tr>
+      <td>bis 500</td>
+      <td>77</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>bis 1.000</td>
+      <td>123</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>1.001 - 2.500 </td>
+      <td>255</td>
+      <td>142</td>
+    </tr>
+    <tr>
+      <td>2.501 - 5.000</td>
+      <td>56</td>
+      <td>84</td>
+    </tr>
+    <tr>
+      <td>5.001 - 10.000</td>
+      <td>26</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>10.001 - 20.000</td>
+      <td>2</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>20.001 - 30.000</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>über 30.000</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Summe</td>
+      <td>542</td>
+      <td>288</td>
+    </tr>
+  </table>
+    <h2>Über</h2>
+      <h3>Worum geht es bei der Gemeindefusion?</h3>
+      <p>Das Bundesland Steiermark hatte mit <strong>542 Gemeinden</strong> in Relation zur Bevölkerung
+        die meisten Gemeinden Österreichs. 200 Gemeinden hatten weniger als 1.000 EinwohnerInnen.
+        Viele Gemeinden konnten aus eigener Kraft nicht mehr die ihr von der Bundesverfassung
+        zugedachen Aufgaben und Funktionen wahrnehmen. Die zunehmenden Aufgaben im eigenen und übertragenen
+        Wirkungsbereich der Gemeinden, die Erwartungshaltung sowie die geänderte Mobilität der Bevölkerung und
+        nicht zuletzt die hohen Anforderungen an den Vollzug der Rechtsnormen erforderten es, in Verantwortung für
+        die gesamte Steiermark Maßnahmen zu treffen.</p>
+    <p>In der Steiermark gab es <strong>542 Gemeinden</strong>, wobei die durchschnittliche EinwohnerInnenzahl je Gemeinde 2.234 beträgt.
+      Bereinigt man diesen Wert um die EinwohnerInnenzahl der Stadt Graz, da diese den Landesdurchschnitt aufgrund ihrer
+      Größe maßgeblich beeinflusst, so beträgt die durchschnittliche EinwohnerInnenzahl je Gemeinde 1.754 EinwohnerInnen.</p>
+      <p>Für mehr Informationen besuche die <a href="http://www.gemeindestrukturreform.steiermark.at/" target="_blank">offizielle
+        Website</a> der Gemeindefusion Steiermark.</p>
+        <img src="images/IMG_0408.JPG"
+        alt="Wappen Steiernark"
+        title="Wappen Steiermark"/>
+    <h2>Team</h2>
+    <ul id="team">
+
+    </ul>
+    <h2>Quellen</h2>
+      <p class="source">Land Steiermark</p>
+    <footer>
+        <p>&copy; Tabea Krämer, Sophie Marak & Alina Neumann <br>
+        "Umgesetzt im Rahmen der <a href="https://github.com/PeterTheOne/scripting-und-coding-lv-fh-joanneum" target="_blank">LV
+           Scripting und Coding</a> an der FH Joanneum"</p>
+    </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+   <script src="js/script.js"></script>
+  </body>
+</html>

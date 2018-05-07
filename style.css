@@ -1,0 +1,29 @@
+body {
+  background-color: #9ECCAF;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  }
+  h1 {font-size: 40px; font-family: "Georgia";}
+  h2 {font-size: 35px; font-family: "Georgia";}
+  h3 {font-size: 25px; font-family: "Georgia";}
+  p {font-size: 18px; font-family: "Times New Roman";}
+  .source {font-size: 16px; font-family: "Times New Roman";}
+table, th, td {
+  border: 1px solid black;
+}
+img {
+  transform: rotate(-90deg);
+  height: 200px;
+  width: auto;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#svg2 {
+  display: none;
+}
